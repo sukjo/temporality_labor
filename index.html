@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play index.</tw-noscript></noscript></tw-story>
-<tw-storydata name="index" startnode="1" creator="Twine" creator-version="2.6.2" format="Harlowe" format-version="3.3.5" ifid="8C8DF67F-F25C-4433-99D6-00D5040473ED" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@font-face {
+<tw-storydata name="index" startnode="1" creator="Twine" creator-version="2.6.2" format="Harlowe" format-version="3.3.5" ifid="8C8DF67F-F25C-4433-99D6-00D5040473ED" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@font-face {
   font-family: "Basteleur-Moonlight";
   src: url("assets/Basteleur-Moonlight.otf") format("opentype");
 }
@@ -20,26 +20,16 @@
 }
 
 tw-story {
-  /*background-color: rgb(171, 189, 171);*/
-  background: -webkit-radial-gradient(
-    center,
-    ellipse cover,
-    #6fe28a 0%,
-    #abbdab 64%,
-    #abbdab 100%
-  ); /* Chrome10-25,Safari5.1-6 */
   background: radial-gradient(
     ellipse at center,
-    #6fe28a 0%,
-    #abbdab 64%,
-    #abbdab 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    #f2e4d2 0%,
+    #f3b35b 55%,
+    #f3b35b 100%
+  );
 }
 
-/* https://colorzilla.com/gradient-editor/#6fe28a+0,abbdab+64,abbdab+100 */
-
 html {
-  font-size: 14px;  
+  font-size: 14px;
 }
 
 body {
@@ -69,16 +59,16 @@ h4 {
 tw-passage {
   margin-top: 0px;
   color: black;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Times", serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
 }
 
 tw-passage a:link,
 tw-passage a:-webkit-any-link,
 tw-link {
-  color: #998cff;
+  color: #9a86aa;
   text-decoration: none;
   font-weight: 700;
   text-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
@@ -86,25 +76,25 @@ tw-link {
 
 tw-passage a:hover,
 tw-link:hover {
-  color: #c7accb;
+  color: #a0d27a;
   font-weight: 700;
 }
 
 /* tw-passage a:visited,*/
 tw-link:visited {
-  color: #c7accb;
+  color: #a0d27a;
   font-weight: 700;
 }
 
 tw-icon {
   font-size: 24px;
   font-weight: 800;
-  color: #998cff;
+  color: #9a86aa;
 }
 
 tw-icon[alt] {
   opacity: 1;
-    text-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
+  text-shadow: 0px 0px 8px #f2e4d2;
 }
 
 li::marker {
@@ -119,9 +109,7 @@ hr {
 }
 
 img {
-  display: block; 
-/*  margin-left: 0px; 
-  margin-right: auto; */
+  display: block;
 }
 
 blockquote {
@@ -132,11 +120,7 @@ blockquote {
 }
 
 #callout {
-/*  border: 2px dotted black; */
-/*  padding: 2rem; */
   font-family: "Basteleur-Moonlight";
-/*  background-color: whitesmoke; */
-/*  opacity: 0.8; */
   font-size: 1rem;
   line-height: 1.5rem;
   padding-bottom: 1.5rem;
@@ -144,33 +128,43 @@ blockquote {
 }
 
 #footer {
-  margin-top: -1rem; 
-  font-size: 0.75rem; 
-  line-height: 1rem; 
-  display: flex; 
-  flex-direction: row; 
+  margin-top: -1rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="artwork" color="green"></tw-tag><tw-tag name="writing" color="blue"></tw-tag><tw-tag name="more-research-needed" color="red"></tw-tag><tw-tag name="footer" color="yellow"></tw-tag><tw-passagedata pid="1" name="temporality + labor" tags="" position="1025,575" size="100,100">&lt;img src=&quot;https://www.recreonics.com/wp-content/uploads/2016/08/88-077universal_clock_guard.png&quot; width=&quot;50%&quot; height=&quot;auto&quot; alt=&quot;analog clock inside a protective cage, typically seen in gymnasiums&quot;&gt;
+}
+
+.ext-link::after {
+  padding-left: 0.1rem;
+  content: "↗";
+}
+
+.ext-link:hover {
+  color: #a0d27a;
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="artwork" color="green"></tw-tag><tw-tag name="writing" color="blue"></tw-tag><tw-tag name="more-research-needed" color="red"></tw-tag><tw-tag name="footer" color="yellow"></tw-tag><tw-passagedata pid="1" name="temporality + labor" tags="" position="1025,625" size="100,100">&lt;img src=&quot;https://www.recreonics.com/wp-content/uploads/2016/08/88-077universal_clock_guard.png&quot; width=&quot;50%&quot; height=&quot;auto&quot; alt=&quot;analog clock inside a protective cage, typically seen in gymnasiums&quot;&gt;
 
 # Time + Labor
 ### Jo Suk
 
 &lt;div id=&quot;callout&quot;&gt;What follows here is a digital garden containing seeds of my ongoing research into the intersection of time and labor. This site will be updated irregularly as long as the medium continues to serve the knowledge within. Please use the hyperlinks to proceed through the garden. &lt;/div&gt;
 
-Time is the metric that binds us regionally, nationally, and globally. Yet time passes through each of us at different rates, depending on factors that range from the corporeal to the economic. In the realm of labor, temporal disparities are especially apparent. Consider the remote knowledge worker who leisures between virtual meetings versus the retail worker whose late arrival could result in docked pay, or the supply chain worker whose individual output is the determining factor for a relay of fellow laborers. Not all work is time-bound with the same precision. 
+Time is the metric that binds us regionally, culturally, and globally. Yet time passes through each of us at different rates, depending on factors that range from the corporeal to the economic. In the realm of labor, temporal disparities are especially apparent. Consider the remote knowledge worker who leisures between virtual meetings versus the retail worker whose late arrival could result in docked pay, or the supply chain worker whose individual output is the determining factor for a relay of fellow laborers. Not all work is time-bound with the same precision. 
 
-In contemporary life, work comprises the majority of our days, and is thus the main determinant of our temporal realities. Work affects every aspect of our time, from the moment we rise, down to the acuity with which we perceive its passage. The language of time is also dictated by labor: the Industrial Revolution brought the advent of standardized time, as well as the [[temporal regimes]] of Fordism and Taylorism. All other time-telling instruments—our [[biological clocks-&gt;biological time]], our [[computers-&gt;technology]], etc.—are configured for maximum productivity. 
+In contemporary life, work comprises the majority of our days, and is thus the main determinant of our temporal realities. Work affects every aspect of our time, from the moment we rise, down to the acuity with which we perceive its passage. The [[language-&gt;George Lakoff and Mark Johnson]] of time is also dictated by labor: the Industrial Revolution brought the advent of standardized time, as well as the [[temporal regimes]] of Fordism and Taylorism. All other time-telling instruments—our [[biological clocks-&gt;biological time]], our [[computers-&gt;technology]], etc.—are configured for maximum productivity. 
 
 Here in the imperial core, all time is oriented around capital. Marx articulated the scheme most famously: under capitalism, clock time is a disciplinary apparatus used to orchestrate working bodies into maximally profitable rhythms. The worker&#39;s time is a commodity itself, to be &quot;spent&quot; in exchange for a living wage. It is wicked enough that our workdays comprise half our waking hours. The cleanly demarcated &quot;beginning&quot; and &quot;end&quot; of the work shift invent a tempting potential that we may trade our &quot;free&quot; time for additional value that will extend the quality of our lives. This is what produces the dichotomous temporality that Marx deemed //necessary labor time// and //surplus labor time//.
 
-My interest in time and labor draws from years of festering resentment and sadness at the way our temporal realities have been atomized and mechanized by capitalism. Temporal oppression is just one of the many heads in the grand scheme that keeps us exploited, uncritical, and alienated from &lt;a href=&quot;https://reverseengineering.cargo.site/Love&quot;&gt;love&lt;/a&gt;. Unlike my other areas of interest, this is one that is not inspired by the warm rays of wonder. Rather, like hydrothermal vents in the ocean floor, it subsists on noxious feelings ejected forcefully from an overwhelmed body. 
+My interest in time and labor draws from years of festering resentment and sadness at the way our temporal realities have been atomized and mechanized by capitalism. Temporal oppression is just one of the many heads in the grand scheme that keeps us exploited, uncritical, and alienated from &lt;a href=&quot;https://reverseengineering.cargo.site/Love&quot; class=&quot;ext-link&quot;&gt;love&lt;/a&gt;. Unlike my other areas of interest, this is one that is not inspired by the warm rays of wonder. Rather, like hydrothermal vents in the ocean floor, it subsists on noxious feelings ejected forcefully from an overwhelmed body. 
 
 Following the framework of reverse engineering, we can look to [[individual, subjective experiences-&gt;artwork]] of time across various strata of labor to see the workings of our own temporal oppression. From there, we can begin to imagine alternative engineerings of time that do not feel so dreadful and anxious, that produce a rhythm that is conducive to the health of our bodies, spirits, crafts, and relationships.</tw-passagedata><tw-passagedata pid="2" name="artwork" tags="" position="800,550" size="100,100">Artists have documented disparities in temporal experiences across various realms of labor. [[Mierle Laderman Ukeles]] sought to give merit to people who maintain the settings necessary for productive labor to proceed. [[Sharon Lockhart]] and [[Revital Cohen &amp; Tuur Van Balen]] meditated on the coordination of time within industrial work settings. [[Pilvi Takala]] created an interference in a corporate work setting that reveals how the unceasing movement of our bodies justifies the passage of time in the workplace more than the output of our labor. [[Elisa Giardina Papa]] gave humanity to online workers whose time spent laboring is obscured by the digital mediation of their services. [[Tehching Hsieh]] demonstrated the deeply disruptive nature of being bound to clock-time.
 </tw-passagedata><tw-passagedata pid="3" name="time consciousness" tags="" position="1225,525" size="100,100">To maintain a common sense of time is to participate in a shared reality with other people and events. While globally standardized, the current temporal regime, bound by numbers and rigid relativities, does not accommodate all ways of life. In this regard, imposing a universal time is an act of oppression. 
 
-Even under numerical time, there are metronomes that go against the grain. Our awareness of time varies by [[chronemics&lt;-cultural norms]], [[biological time&lt;-bodies]], [[technology&lt;-tools]], and [[temporal regimes&lt;-economic systems]]. </tw-passagedata><tw-passagedata pid="4" name="chronemics" tags="" position="1350,650" size="100,100">&#39;&#39;Chronemics&#39;&#39; is the role of time in communication. According to the Encyclopedia of Special Education, &quot;Chronemics includes time orientation, understanding and organisation, the use of and reaction to time pressures the innate and learned awareness of time, by physically wearing or not wearing a watch, arriving, starting, and ending late or on time.&quot; (Wikipedia)
+Even under clock time, there are rhythms that beat against the grain. Our awareness of time varies by [[chronemics&lt;-cultural norms]], [[biological time&lt;-bodies]], [[technology&lt;-tools]], and [[temporal regimes&lt;-economic systems]]. </tw-passagedata><tw-passagedata pid="4" name="chronemics" tags="" position="1350,675" size="100,100">&#39;&#39;Chronemics&#39;&#39; is the role of time in communication. According to the Encyclopedia of Special Education, &quot;Chronemics includes time orientation, understanding and organisation, the use of and reaction to time pressures the innate and learned awareness of time, by physically wearing or not wearing a watch, arriving, starting, and ending late or on time.&quot; (Wikipedia)
 
-In monochronic societies, things are done one at a time and tiimie is segmented into small precise units that can be scheduled, arranged, and managed. Monochronic time systems are predominant in the U.S., North European countries, Italy, Greece, Spain, England, and Scandinavian countries.
+In monochronic societies, things are done one at a time and time is segmented into small precise units that can be scheduled, arranged, and managed. Monochronic time systems are predominant in the U.S., North European countries, Italy, [[Greece-&gt;Chronos and Kairos]], Spain, England, and Scandinavian countries.
 
 In polychronic societies, several things can be done at once. Time is perceived in large fluid sections that correspond to &quot;natural rhythms&quot;, such as those of the earth and weather. Polychronic cultures can be found in Latin America, Africa, the Arab world, South Asia, and in Native American communities.</tw-passagedata><tw-passagedata pid="5" name="In the Meantime" tags="writing" position="1425,250" size="100,100">## //In the Meantime: Temporality and Cultural Politics// (2014) 
 ### Sarah Sharma
@@ -189,15 +183,15 @@ Sharma&#39;s work focuses on how a/synchronocity affects material relations.
 Mierle Laderman Ukeles is known for devoting her artistic practice to forms of labor that are [[undervalued-&gt;maintenance labor]] in the workforce. In this particular work, Ukeles photographed 300 workers who helped maintain a skyscraper in New York&#39;s Financial District. Notably, the majority of the workers worked the night shift, which by nature made their influence less visible to all those who benefitted.</tw-passagedata><tw-passagedata pid="7" name="biological time" tags="" position="1575,375" size="100,100">What if we measured a moment in units of [[Breathing: Chaos and Poetry by Bifo&lt;-breath]] ? What if we measured a month by the how long our hair grew? What if we measured age by wisdom? What if we [[ceased measuring-&gt;Carol Bove]]?
 
 How do animals and plants sense the passage of time?
-What other vernacular for time exist?</tw-passagedata><tw-passagedata pid="8" name="temporal regimes" tags="" position="1500,575" size="100,100">Fordism and Taylorism (scientific management) are still the dominant temporal regimes in the U.S. (and perhaps other societies). These regimes create [[urgency-&gt;JIT]] around the [[present moment-&gt;the &quot;now&quot;]], treating time as a resource to be used toward [[productivity and reproduction-&gt;Queering Time]].</tw-passagedata><tw-passagedata pid="9" name="flow state" tags="" position="1150,800" size="100,100">Flow state, or being &quot;in the zone&quot;, is a state of activity that is characterized by heightened focus and enjoyment. Flow state activities entail a high level of concentration and a level of difficulty that is not high enough to deter action and not low enough to induce boredom. In //flow//, one is fully immersed in their current activity, indicating a perfect union of body and mind. It is a method to bring oneself back into [[the &quot;now&quot;]].</tw-passagedata><tw-passagedata pid="10" name="the &quot;now&quot;" tags="" position="1475,825" size="100,100">In many belief systems, presence is the essence of joy and fulfillment, while the past and future incite pain. In the Christian scripture, followers are told to trust in [[God&#39;s plan-&gt;God&#39;s timing]] for the future, and to release shame over the past, for their sins were forgiven by Christ. In Buddhism, the present moment is a locus for //sati//, or mindfulness, and the one and only reality. The past and future are treated as distractions wrought with desires and expectations. In Hinduism, yoga and meditation are used to quiet the mind and activate the body, anchoring the practitioner in the present moment. 
+What other vernacular for time exist?</tw-passagedata><tw-passagedata pid="8" name="temporal regimes" tags="" position="1550,550" size="100,100">Fordism and Taylorism (scientific management) are still the dominant temporal regimes in the U.S. (and perhaps other societies). These regimes create [[urgency-&gt;JIT]] around the [[present moment-&gt;the &quot;now&quot;]], treating time as a resource to be used toward [[productivity and reproduction-&gt;Queering Time]].</tw-passagedata><tw-passagedata pid="9" name="flow state" tags="" position="1150,800" size="100,100">Flow state, or being &quot;in the zone&quot;, is a state of activity that is characterized by heightened focus and enjoyment. Flow state activities entail a high level of concentration and a level of difficulty that is not high enough to deter action and not low enough to induce boredom. In //flow//, one is fully immersed in their current activity, indicating a perfect union of body and mind. It is a method to bring oneself back into [[the &quot;now&quot;]].</tw-passagedata><tw-passagedata pid="10" name="the &quot;now&quot;" tags="" position="1475,825" size="100,100">In many belief systems, presence is the essence of joy and fulfillment, while the past and future incite pain. In the Christian scripture, followers are told to trust in [[God&#39;s plan-&gt;God&#39;s timing]] for the future, and to release shame over the past, for their sins were forgiven by Christ. In Buddhism, the present moment is a locus for //sati//, or mindfulness, and the one and only reality. The past and future are treated as distractions wrought with desires and expectations. In Hinduism, yoga and meditation are used to quiet the mind and activate the body, anchoring the practitioner in the present moment. 
 
-&quot;The now&quot; has become something of a shorthand for quotidian transcendence. Today we see the platitude printed onto tote bags and coffee mugs galore. In the U.S., which wears the guise of a secular society while reproducing [[Protestant beliefs-&gt;Protestant work ethic]] about time and work, mantras become memes, which in turn become part of a mass ideology that is used to sell goods. The trite phrasing is a method, then, of smuggling a spiritually potent concept into a nominally secular world.
+&quot;The now&quot; has become something of a shorthand for transcendence. Today we see the platitude printed onto tote bags and coffee mugs galore. In the U.S., which wears the guise of a secular society while reproducing [[Protestant beliefs-&gt;Protestant work ethic]] about time and work, mantras become memes, which in turn become part of an ideology that is used to sell goods. The trite phrasing is a method, then, of smuggling a spiritually potent concept into a nominally secular world.
 
 [[Echkart Tolle-&gt;Eckhart Tolle]] is a well-known proponent of &quot;the now&quot;. His works take inspiration from the beliefs above, loosely amalgamating various spiritualities in such a way that emphasizes no one in particular. The result is what can best be described as a lay-philosophy that is fit for a social body whose spirits are trapped in a fugue state induced by years spent living under capitalism.
 
 As oversimplified as the term may seem, it is rather difficult to find the vocabulary for a feeling that is so easily extinguished by words. In another light, it is fitting to nod to the experience in such a curt manner given the countless other stimuli waiting to diverge us from the present. &quot;The now&quot; seems perfectly proportioned to the length of time to which it refers.</tw-passagedata><tw-passagedata pid="11" name="JIT" tags="" position="1700,775" size="100,100">Just in Time (JIT) is a style of inventory management sometimes referred to as the Toyota Production System (tPS). Under the JIT method, companies schedule production according to live demand. This frees them from having to anticipate future orders or holding onto excess inventory. 
 
-&lt;blockquote&gt;&quot;JIT can be considered an engine establishing temporal regimes that intensify focus on the moment. At the same time, it indicates that globalization, outsourcing, etc., create a significant need for coordination across different chains of production, just as a greater degree of customer orientation entails a need for synchronization and, thereby, for a new temporal structuring of our work. Furthermore, this synchronization must always be improvised according to the needs of the moment.&quot; (Wikipedia) &lt;/blockquote&gt;</tw-passagedata><tw-passagedata pid="12" name="maintenance labor" tags="" position="1025,175" size="100,100">Maintenance labor involves the regular sustenance of places, people, or things. It is typically femenized, undervalued, and associate with the domestic sphere. Maintenance work in the household is treated as a second or third shift.
+&lt;blockquote&gt;&quot;JIT can be considered an engine establishing temporal regimes that intensify focus on the moment. At the same time, it indicates that globalization, outsourcing, etc., create a significant need for coordination across different chains of production, just as a greater degree of customer orientation entails a need for synchronization and, thereby, for a new temporal structuring of our work. Furthermore, this synchronization must always be improvised according to the needs of the moment.&quot; (Wikipedia) &lt;/blockquote&gt;</tw-passagedata><tw-passagedata pid="12" name="maintenance labor" tags="" position="1050,175" size="100,100">Maintenance labor involves the regular sustenance of places, people, or things. It is typically femenized, undervalued, and associate with the domestic sphere. Maintenance work in the household is treated as a second or third shift.
 
 Maintenance labor changes one&#39;s [[experience of time-&gt;temporality + labor]] in two ways:
 0. Tasks that are repetitious, because they involve repetitive movements and/or are performed with regularity, can inspire a [[flow state]]. 
@@ -206,10 +200,10 @@ Maintenance labor changes one&#39;s [[experience of time-&gt;temporality + labor
 * Even so, digital time measures can be disorienting when separated from analog measures, such as the length of a shadow. Peering into a lit screen, it is always daylight. 
 * Marketers understand the appeal of [[the &quot;now&quot;]]. This is because they are professionals at generating scarcity, and we have been tricked into thinking we are [[time deficient-&gt;time deficiency]]. That&#39;s why marketers feign co-presence through live events online, which are many times actually &quot;live-adjacent&quot;, or pre-recorded.
 * On the internet, we encounter many histories in a day, some further off than others. Even when our tools get us as close to real-time as computationally possible, the overlap between my words and my manager&#39;s words over Zoom remind me not to get attached to the impersonator. Online, anything that purports to be &quot;live&quot; is always offset from your time by an unknown variable. A digital presence is relational and contingent on internet speeds, which are in turn contingent on geography, meteorology, and other elemental factors (as well as many non-elemental ones). 
-* Real-time life is full of idiosyncracies. We see the cracked paint on a fire hydrant catching the waning daylight. Behind it, a tree shudders, producing thousands of individual movements. A man&#39;s shoelace swings in imperfect rhythm with his stride. These details help us ascertain whether what we view is occurring in the same timeline as ours. But online, there is no cracked paint—at best, a broken link or a defunct Adobe Flash file. There is no ungoverned &lt;a href=&quot;https://reverseengineering.cargo.site/Wind&quot;&gt;wind&lt;/a&gt; that reminds us that the world is carrying on, with or without us. Even in human expression, we widen the temporal distance between ourselves and our recipients because we would rather spend time perfecting our likeness.</tw-passagedata><tw-passagedata pid="14" name="Queering Time" tags="writing" position="1775,450" size="100,100">#### From //Cruising Utopia//, by academic and queer theorist José Esteban Muñoz:
+* Real-time life is full of idiosyncracies. We see the cracked paint on a fire hydrant catching the waning daylight. Behind it, a tree shudders, producing thousands of individual movements. A man&#39;s shoelace swings in imperfect rhythm with his stride. These details help us ascertain whether what we view is occurring in the same timeline as ours. But online, there is no cracked paint—at best, a broken link or a defunct Adobe Flash file. There is no ungoverned &lt;a href=&quot;https://reverseengineering.cargo.site/Wind&quot; class=&quot;ext-link&quot;&gt;wind&lt;/a&gt; that reminds us that the world is carrying on, with or without us. Even in human expression, we widen the temporal distance between ourselves and our recipients because we would rather spend time perfecting our likeness.</tw-passagedata><tw-passagedata pid="14" name="Queering Time" tags="writing" position="1775,450" size="100,100">#### From //Cruising Utopia//, by academic and queer theorist José Esteban Muñoz:
 &quot;Here I draw from Judith Halberstam&#39;s notion of time and normativity that she mines from a critique of David Harvey. I see her alerting us to a normative straight temporality that underscores heterosexual and heteronormative life and constructs straight space. My notion of time or critique of a certain modality of time is interested in the way in which a queer utopian hhermeneutic wishes to interrupt the linear temporal ordering of past, present, and future. See Judith Halberstam, In a Queer Time and Place: Transgender Bodies, Subcultural Lives (New York: New York University Press, 2005).&quot;
 
-#### Mentioned by &lt;a href=&quot;https://www.nytimes.com/2023/03/22/magazine/playa-zipolite-nude-beach-mexico.html?unlocked_article_code=nWUMJHx_H4O8yjzJLbqoUXmUmjH8khZ8b-0CO9CFBl8Sv73NJt6haBzPv5Lsekm4uz2e7f-cfvblONFsAPYE88keaDXb9yL0SCVhXpPQSpgO8tT397Vh2NyO8Bw89XNl0e01gmCWLM1GaiDEOaV2QqPXk5Y3r_ENjcKA3rc3GbW0HIO9nLBY7x7m_87MifDXUbv_uQmBIH80HCR4PY9ry6AJGj1UAfTFpCLumdX-KFWd1QduUCxxE7w0LNeV-8BTfFE4Fwc5EtUAjybnBqBHIvTg7Bsu1wcXV1RJbWBmq0XT-Gj6dQwt8Ei59Xf9YnsVmqfLxbj06J02q2TshN2VVDBY4oEF-ttSc72f&amp;smid=url-share&quot;&gt;Jenna Wortham&lt;/a&gt; for NYT Mag:
+#### Mentioned by &lt;a href=&quot;https://www.nytimes.com/2023/03/22/magazine/playa-zipolite-nude-beach-mexico.html?unlocked_article_code=nWUMJHx_H4O8yjzJLbqoUXmUmjH8khZ8b-0CO9CFBl8Sv73NJt6haBzPv5Lsekm4uz2e7f-cfvblONFsAPYE88keaDXb9yL0SCVhXpPQSpgO8tT397Vh2NyO8Bw89XNl0e01gmCWLM1GaiDEOaV2QqPXk5Y3r_ENjcKA3rc3GbW0HIO9nLBY7x7m_87MifDXUbv_uQmBIH80HCR4PY9ry6AJGj1UAfTFpCLumdX-KFWd1QduUCxxE7w0LNeV-8BTfFE4Fwc5EtUAjybnBqBHIvTg7Bsu1wcXV1RJbWBmq0XT-Gj6dQwt8Ei59Xf9YnsVmqfLxbj06J02q2TshN2VVDBY4oEF-ttSc72f&amp;smid=url-share&quot; class=&quot;ext-link&quot;&gt;Jenna Wortham&lt;/a&gt; for NYT Mag:
 &quot;Straight time&quot; is obsessed with producitivity and reproduction. 
 &quot;Straight time is not limited to straight people. Rather, it reflects a society that tries to herd all people toward notions of productivity organized around traditional work and family structures, shaming those who opt out with higher costs of living and lower cultural worth.&quot; (Wortham)
 
@@ -257,18 +251,19 @@ Technologies of Care documents the experiences of workers who provide affective 
 
 &lt;img src=&quot;https://gallery.98bowery.com/wp-content/uploads/151SamHsieh1980to1981A.jpg&quot; width=&quot;auto&quot; height=&quot;100%&quot; alt=&quot;poster for Sam (Tehching) Hsieh&#39;s One Year Performance&quot;&gt;
 &lt;/div&gt;
-Taiwanese American artist Hsieh Tehching punched into a time clock every hour, on the hour, for an entire calendar year. Due to this constraint, he spent the year unable to sleep through an entire night or leave his studio, for fear that he would not make the next punch. Hsieh&#39;s one year performance, one in a series of performances of the same duratiton, is an exceptional enactment of the way clock time overrides our bodies&#39; natural rhythms and creates a mythical importance around certain, arbitrarily spaced moments.</tw-passagedata><tw-passagedata pid="20" name="Breathing: Chaos and Poetry by Bifo" tags="writing" position="1775,250" size="100,100">Franco &quot;Bifo&quot; Berardi&#39;s //Breathing: Chaos and Poetry// (2019)
+Taiwanese American artist Hsieh Tehching punched into a time clock every hour, on the hour, for an entire calendar year. Due to this constraint, he spent the year unable to sleep through an entire night or leave his studio, for fear that he would not make the next punch. Hsieh&#39;s one year performance, one in a series of performances of the same duratiton, is an exceptional enactment of the way clock time overrides our bodies&#39; natural rhythms and creates a mythical importance around certain, arbitrarily spaced moments.</tw-passagedata><tw-passagedata pid="20" name="Breathing: Chaos and Poetry by Bifo" tags="writing" position="1775,250" size="100,100">## //Breathing: Chaos and Poetry// (2019)
+### Franco &quot;Bifo&quot; Berardi
 
 “Consciousness is located in time, but time is located in consciousness, as it can only be perceived and projected by consciousness.” (25)</tw-passagedata><tw-passagedata pid="21" name="Sanela Jahić" tags="more-research-needed" position="350,800" size="100,100">## //Digital Punch Card// (2018) 
 ### Sanela Jahić
 
 ## //The Labour of Making Labour Disappear// (2019) 
-### Sanela Jahić</tw-passagedata><tw-passagedata pid="22" name="Eckhart Tolle" tags="writing" position="1250,950" size="100,100">## //The Power of Now: A Guide to Spiritual Enlightenment//
+### Sanela Jahić</tw-passagedata><tw-passagedata pid="22" name="Eckhart Tolle" tags="writing" position="1300,975" size="100,100">## //The Power of Now: A Guide to Spiritual Enlightenment// (1997)
 ### Eckhart Tolle
 
 According to Eckhart Tolle, being present in the &quot;now&quot; can help one disengage from egoic thoughts. This is because egoic—or fearful—thoughts are usually located in the past or future. The ego perceives the “now” as threatening because it cannot operate without time.</tw-passagedata><tw-passagedata pid="23" name="Carol Bove" tags="" position="1575,125" size="100,100">An excerpt from Carol Bove&#39;s &quot;To Rescue Time from Photography&quot; (2011):
 
-&lt;blockquote&gt;&quot;When I say “time,” I’m not talking about physics or abstract time, but [[biological time]] and the passage of days. The passage of your days is equivalent to mortality. Deinstrumentalizing time—freeing it—is a necessary step in taking possession of life, but the process is not simple since time is thoroughly ideological. It requires consistent attention to rework habits of thought; for example, I make an effort never to say “spend time” because the expression equates time with money and, naturally, the things you say affect your thinking as much as the other way around.&quot;&lt;/blockquote&gt;</tw-passagedata><tw-passagedata pid="24" name="Fatin Abbas" tags="" position="975,925" size="100,100">Fatin Abbas&#39; &quot;Black Time&quot; (2022)
+&lt;blockquote&gt;&quot;When I say “time,” I’m not talking about physics or abstract time, but [[biological time]] and the passage of days. The passage of your days is equivalent to mortality. Deinstrumentalizing time—freeing it—is a necessary step in taking possession of life, but the process is not simple since time is thoroughly ideological. It requires consistent attention to rework habits of thought; for example, I make an effort never to say “spend time” because the expression equates time with money and, naturally, the things you say affect your thinking as much as the other way around.&quot;&lt;/blockquote&gt;</tw-passagedata><tw-passagedata pid="24" name="Fatin Abbas" tags="" position="950,1025" size="100,100">Fatin Abbas&#39; &quot;Black Time&quot; (2022)
 
 &quot;It was only after years that I understood: in Khartoum, time is often used to create social bonds; it produces solidarity and community. In New York, time is used to produce things – primarily things for getting oneself ahead. This is not to romanticize Sudan, where the labor of hospitality falls on women: the cooking, cleaning, hosting that creates the conditions necessary for community (though communities everywhere are built on the [[labor of women-&gt;maintenance labor]]).&quot;
 
@@ -280,32 +275,34 @@ According to Eckhart Tolle, being present in the &quot;now&quot; can help one di
 But the [[dissonance-&gt;chronemics]] between Sudanese and American time points to the fact that the »time« I was used to in the US, that I subscribed to as »right,« as normative, is rooted in a specific culture and economic system. I’ll call it »white time.« White time is western capitalist time, understood as useful for producing material or intellectual goods for consumption. White time is linear, efficient, punctual, productive – for neoliberal capitalism.&quot;&lt;/blockquote&gt;</tw-passagedata><tw-passagedata pid="27" name="Footer" tags="footer" position="875,125" size="100,100">&lt;style&gt;
 &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
 &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;
-&lt;link href=&quot;https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,700&amp;family=Kotta+One&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
-&lt;/style&gt;
+&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
 &lt;hr&gt;
-&lt;div id=&quot;footer&quot;&gt;&lt;div style=&quot;left: 0px&quot;&gt;[[Return to beginning-&gt;temporality + labor]] &lt;/div&gt;&lt;div style=&quot;left: auto&quot;&gt;[[Credits]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="28" name="time deficiency" tags="more-research-needed" position="1275,125" size="100,100"></tw-passagedata><tw-passagedata pid="29" name="Protestant work ethic" tags="more-research-needed" position="1550,1000" size="100,100">The influence of the 16th-century Reformation endures in the West through the lingering notion that one&#39;s hard work equates to their moral worthiness, and thereby any material fortunes that result from the labor are justified //ipso facto//. </tw-passagedata><tw-passagedata pid="30" name="footer" tags="" position="1800,925" size="100,100">This interactive text was made by Jo Suk in 2023. </tw-passagedata><tw-passagedata pid="31" name="God&#39;s timing" tags="" position="1350,1075" size="100,100">## Ecclesiastes 3:1-8
+&lt;div id=&quot;footer&quot;&gt;&lt;div style=&quot;left: 0px&quot;&gt;[[Return to beginning-&gt;temporality + labor]] &lt;/div&gt;&lt;div style=&quot;left: auto&quot;&gt;[[Credits]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="28" name="time deficiency" tags="more-research-needed" position="1275,125" size="100,100"></tw-passagedata><tw-passagedata pid="29" name="Protestant work ethic" tags="more-research-needed" position="1650,1025" size="100,100">The influence of the 16th-century Reformation endures in the West through the lingering notion that one&#39;s hard work equates to their moral worthiness, and thereby any material fortunes that result from the labor are justified //ipso facto//. </tw-passagedata><tw-passagedata pid="30" name="God&#39;s timing" tags="" position="1425,1125" size="100,100">## Ecclesiastes 3:1-8
 
-To every thing there is a season, and a time for every purpose under the heaven:^^3^^ a time to be born, and a time to die; a time to plant, and a time to pluck up that which is planted;^^2^^ a time to kill, and a time to heal; a time to break down, and a time to build up;^^3^^ a time to weep, and a time to laugh; a time to mourn, and a time to dance;^^4^^ a time to cast away stones, and a time to gather stones together; a time to embrace, and a time to refrain from embracing;^^5^^ a time to get, and a time to lose; a time to keep, and a time to cast away;^^6^^ a time to rend, and a time to sew; a time to keep silence, and a time to speak;^^7^^ a time to love, and a time to hate; a time of war, and a time of peace.^^8^^</tw-passagedata><tw-passagedata pid="32" name="Sharon Lockhart" tags="artwork" position="575,875" size="100,100">## //Lunch Break// (2008)
+To every thing there is a season, and a time for every purpose under the heaven:^^3^^ a time to be born, and a time to die; a time to plant, and a time to pluck up that which is planted;^^2^^ a time to kill, and a time to heal; a time to break down, and a time to build up;^^3^^ a time to weep, and a time to laugh; a time to mourn, and a time to dance;^^4^^ a time to cast away stones, and a time to gather stones together; a time to embrace, and a time to refrain from embracing;^^5^^ a time to get, and a time to lose; a time to keep, and a time to cast away;^^6^^ a time to rend, and a time to sew; a time to keep silence, and a time to speak;^^7^^ a time to love, and a time to hate; a time of war, and a time of peace.^^8^^</tw-passagedata><tw-passagedata pid="31" name="Sharon Lockhart" tags="artwork" position="575,875" size="100,100">## //Lunch Break// (2008)
 ### Sharon Lockhart
 
 &lt;img src=&quot;https://blog.calarts.edu/wp-content/uploads/2016/04/Lunch-Break-still-Sharon-Lockhart.jpg&quot; width=&quot;60%&quot; height=&quot;auto&quot; alt=&quot;still of men taking a lunch break in an industrial-looking hallway&quot;&gt;
 
-Sharon Lockhart’s //Lunch Break//stretches the midday reprieve of shipyard workers into an 83-minute film. As the film progresses, the camera moves steadily through a corridor lined with industrial furnishings and signs of wear. The exaggerated pace seems fit for a period of respite from the usual metronome of the workday, yet simultaneously aspirational, as their break is just as time-constrained as their working hours. </tw-passagedata><tw-passagedata pid="33" name="Credits" tags="" position="700,25" size="100,100">### Credits
+Sharon Lockhart’s //Lunch Break//stretches the midday reprieve of shipyard workers into an 83-minute film. As the film progresses, the camera moves steadily through a corridor lined with industrial furnishings and signs of wear. The exaggerated pace seems fit for a period of respite from the usual metronome of the workday, yet simultaneously aspirational, as their break is just as time-constrained as their working hours. </tw-passagedata><tw-passagedata pid="32" name="Credits" tags="" position="700,25" size="100,100">### Credits
 This work was made by Jo Suk using Twine, an interactive storytelling tool created by Chris Klimas. Featured typefaces are IBM Plex Mono and Basteleur by Keussel via Velvetyne Type Foundry. 
 
 Thank you to Sara Raza and the Reverse Engineering class of spring 2023 for facilitating a space to explore our own reverse engineering practices.
 
 
 ### References
-* Abbas, F. (2022, November 30). Black Time. Akademie Schloss Solitude. https://www.akademie-solitude.de/de/online-publications/time-after-time/black-time/
+* Abbas, F. (2022, November 30). Black Time. Akademie Schloss Solitude. &lt;a href=&quot;https://www.akademie-solitude.de/de/online-publications/time-after-time/black-time/&quot; class=&quot;ext-link&quot;&gt;https://www.akademie-solitude.de/de/online-publications/time-after-time/black-time/&lt;/a&gt;
 * Berardi, F. “Bifo.” (2019). Breathing: Chaos and Poetry. MIT Press.
 * Geissler, H. (2018). Seasonal Associate. MIT Press.
-* Hoegsberg, M., &amp; Fisher, C. (Eds.). (2013). Living Labor. Sternberg Press. https://www.sternberg-press.com/product/living-labor/
-* Hu, T.-H. (2022). Digital Lethargy: Dispatches from an Age of Disconnection. https://doi.org/10.7551/mitpress/14336.001.0001
+* Hoegsberg, M., &amp; Fisher, C. (Eds.). (2013). Living Labor. Sternberg Press. &lt;a href=&quot;https://www.sternberg-press.com/product/living-labor/&quot; class=&quot;ext-link&quot;&gt;https://www.sternberg-press.com/product/living-labor/&lt;/a&gt;
+* Hu, T.-H. (2022). Digital Lethargy: Dispatches from an Age of Disconnection. &lt;a href=&quot;https://doi.org/10.7551/mitpress/14336.001.0001&quot; class=&quot;ext-link&quot;&gt;https://doi.org/10.7551/mitpress/14336.001.0001&lt;/a&gt;
 * Kamp, A. (2013). New concepts of work and time. In M. Hoegsberg &amp; C. Fischer (Eds.), Living Labor (pp. 129–147). Sternberg Press.
 * Lynch, K. (1976). What Time Is This Place? MIT Press.
 * Quaranta, D., Stalder, F., Bitnik, !Mediengruppe, Lorusso, S., &amp; Parisi, L. (2020). Hyperemployment: Post-work, Online Labour and Automation (D. Quaranta &amp; F. Stalder, Eds.). Nero Editions and Aksioma.
-* Sharma, S. (2014). In the Meantime: Temporality and Cultural Politics. Duke University Press.</tw-passagedata></tw-storydata>
+* Sharma, S. (2014). In the Meantime: Temporality and Cultural Politics. Duke University Press.</tw-passagedata><tw-passagedata pid="33" name="Chronos and Kairos" tags="" position="1125,1075" size="100,100">&lt;blockquote&gt;Patricia Fortini Brown, in Venice and Antiquity, notes that the ancient Greeks distinguished two kinds of time, “kairos (opportunity or the propitious moment) and chronos (eternal or ongoing time). While the ﬁrst . . . offers hope, the second extends a warning.” Kairos is the time of cleverness, chronos the time of wisdom.&lt;/blockquote&gt;Brand, S. (2000). Time and responsibility, p. 9.</tw-passagedata><tw-passagedata pid="34" name="George Lakoff and Mark Johnson" tags="writing" position="1000,775" size="100,100">## //Metaphors We Live By// (1980)
+### George Lakoff and Mark Johnson
+
+&lt;blockquote&gt;LABOR IS A RESOURCE and TIME IS A RESOURCE are by no means universal. They emerged naturally in our culture because of the way we view work, our passion for quantification, and our obsession with purposeful ends. These metaphors highlight those aspects of labor and time that are centrally important in our culture. In doing this, they also deemphasize or [[hide-&gt;maintenance labor]] certain aspects of labor and time. We can see what both metaphors hide by examining what they focus on. In viewing labor as a kind of activity, the metaphor assumes that labor can be clearly identified and distinguished from things that are not labor. It makes the assumptions that we can tell work from play and productive activity from nonproductive activity. These assumptions obviously fail to fit reality much of the time, except perhaps on [[assembly lines-&gt;temporal regimes]], chain gangs, etc. The view of labor as merely a kind of activity, independent of who performs it, how he experiences it, and what it means in his life, hides the issues of whether the work is personally meaningful, satisfying, and humane. The quantification of labor in terms of time, together with the view of time as serving a purposeful end, induces a notion of LEISURE TIME, which is parallel to the concept LABOR TIME. In a society like ours, where inactivity is not considered a purposeful end, a whole industry devoted to leisure activity has evolved. As a result, LEISURE TIME becomes a RESOURCE too—to be spent productively, used wisely, saved up, budgeted, wasted, lost, etc. What is hidden by the RESOURCE metaphors for labor and time is the way our concepts of LABOR and TIME affect our concept of LEISURE, turning it into something remarkably like LABOR. The RESOURCE metaphors for labor and time hide all sorts of possible conceptions of labor and time that exist in [[other cultures-&gt;chronemics]] and in some subcultures of our own society: the idea that work can be play, that inactivity can be productive, that much of what we classify as LABOR serves either no clear purpose or no worthwhile purpose.&lt;/blockquote&gt;</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
